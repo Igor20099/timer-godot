@@ -9,10 +9,6 @@ func _ready():
 	label.text = str(seconds)
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
 
 func _on_button_pressed():
 	timer.start()
